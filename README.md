@@ -45,7 +45,7 @@ From the code plot_error_hist, the distribution of prediction error is displayed
 9. Click "Plot Feature Imporatance"
 From the code plot_feature_importance, the image below shows the lag and the dummy month's features and which of them influences the model most. The bar lengths indicate the absolute value of each model coefficient and how strongly it impacts the prediction. The lagged sales (Sales_lag1,lag2,lag3) have almost contributed nothing as can be seen from the chart. On the other hand, promo is a dominant driver of the predicted sales, indicating that promos heavily increase the expected revenue. The months also play a significant role in the sales number, as the December (month 12) and August (month 8) have the strongest effects - can be attributed to the holidays seasons and the “Back-to-School” seasons. Lastly, the Day of week patterns matters as certain days may have higher sales than baseline sales (i.e. weekend vs weekdays). The model partially depends on the weekly seasonality. 
 <p align="center">
-  <img width="640" height="480" alt="feature_importance" src="https://github.com/user-attachments/assets/4dc97e12-140e-40bd-a9fa-f3a1ab4494e3" />
+<img width="640" height="480" alt="feature_importance" src="https://github.com/user-attachments/assets/be656f84-5694-424e-b5a7-57368686b8fb" />
 </p>
 
 
